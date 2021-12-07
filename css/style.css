@@ -1,0 +1,61 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.login-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid black;
+    width: 350px;
+}
+
+form fieldset {
+    border-color: white;
+}
+
+form fieldset input {
+    padding: 10px;
+    width: 100%;
+}
+
+form h3 {
+    background-color: red;
+    padding: 30px;
+    color: white;
+    margin: 0;
+}
+
+form .input-container {
+    padding: 0px 20px;
+}
+
+form .input-container input {
+    border-radius: 20px;
+    border-color: #d9d6d6;
+    border-width: 1px;
+}
+
+form  button {
+    width: 50%;
+    margin: auto;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+form p {
+    text-align: center;
+}
