@@ -1,11 +1,49 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Signup</title>
+    <!-- CSS LINK WE USE link-->
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <!-- Use Script tag to import js file-->
+    <script src="script/main.js" defer></script>
 </head>
+
 <body>
-    SIGNUP PAGE
+    <div class="login-container"> 
+        <form>
+            <h3>
+                Hey, Welcome. Signup to access Task Management
+            </h3>
+
+            <div class="input-container">
+                <fieldset>
+                    <legend>Name</legend>
+                    <input placeholder="Enter Name..." type="name" id="login-name">
+                </fieldset>
+            </div>
+           
+            <div class="input-container">
+                <fieldset>
+                    <legend>Email</legend>
+                    <input placeholder="Enter Email..." type="email" id="login-email">
+                </fieldset>
+
+            </div>
+            <div class="input-container">
+                <fieldset>
+                    <legend>Password</legend>
+                    <input placeholder="Enter password..." type="password" id="login-password">
+                </fieldset>
+            </div>
+            <button type="submit">Signup</button>
+            <p>Already a Member!<a href="index.html">Login</a></p>
+        </form>
+    </div>
 </body>
+
 </html>
