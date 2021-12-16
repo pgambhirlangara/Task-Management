@@ -15,7 +15,8 @@
 
 <body>
     <div class="login-container"> 
-        <form>
+        <form onsubmit="signup(event)">
+
             <h3>
                 Hey, Welcome. Signup to access Task Management
             </h3>
@@ -23,25 +24,28 @@
             <div class="input-container">
                 <fieldset>
                     <legend>Name</legend>
-                    <input placeholder="Enter Name..." type="name" id="login-name">
+                    <input placeholder="Enter Name..." type="name" id="signupname">
                 </fieldset>
             </div>
            
             <div class="input-container">
                 <fieldset>
                     <legend>Email</legend>
-                    <input placeholder="Enter Email..." type="email" id="login-email">
+                    <input placeholder="Enter Email..." type="email" id="signupemail">
                 </fieldset>
 
             </div>
+
             <div class="input-container">
                 <fieldset>
                     <legend>Password</legend>
-                    <input placeholder="Enter password..." type="password" id="login-password">
+                    <input placeholder="Enter password..." type="password" id="signuppassword">
                 </fieldset>
             </div>
+
             <button type="submit">Signup</button>
             <p>Already a Member!<a href="index.html">Login</a></p>
+
         </form>
     </div>
 </body>

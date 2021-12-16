@@ -15,21 +15,21 @@
 
 <body>
     <div class="login-container"> 
-        <form>
+        <form onsubmit="login(event)">
             <h3>
                 Hey, Welcome. Login to access Task Management
             </h3>
             <div class="input-container">
                 <fieldset>
                     <legend>Email</legend>
-                    <input placeholder="Enter Email..." type="email" id="login-email">
+                    <input placeholder="Enter Email..." type="email" id="loginemail">
                 </fieldset>
 
             </div>
             <div class="input-container">
                 <fieldset>
                     <legend>Password</legend>
-                    <input placeholder="Enter password..." type="password" id="login-password">
+                    <input placeholder="Enter password..." type="password" id="loginpassword">
                 </fieldset>
             </div>
             <button type="submit">Login</button>
